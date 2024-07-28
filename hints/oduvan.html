@@ -2,60 +2,83 @@
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 1}}
+    Como posso acessar elementos específicos de uma tupla/lista?
+
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 1}}
+    Você pode acessar elementos de uma tupla/lista usando índices. Por exemplo, para acessar o primeiro, segundo e terceiro elementos de uma tupla:
+
+<pre class="brush: python">
+tupla = (100, 200, 300, 400, 500)
+primeiro = tupla[0]
+segundo = tupla[1]
+terceiro = tupla[2]
+</pre>
+Isso permitirá que você extraia os elementos desejados com base em suas posições. Lembre-se que sempre começamos a contar a partir do 0.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 2}}
+    Como pegar o penúltimo elemento de uma lista em que não sei o tamanho?
+
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 2}}
+    Você pode usar índices negativos para acessar elementos a partir do final da tupla.  Para pegar o último elemento, use o índice -1:
+
+<pre class="brush: python">
+tupla = (100, 200, 300, 400, 500)
+ultimo = tupla[-1]
+penultimo = tupla[-2]
+</pre>
+Isso é útil quando você não sabe o tamanho exato da tupla e deseja acessar elementos próximos ao final.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 3}}
+    Existe uma maneira de extrair múltiplos elementos de uma tupla de uma só vez?
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 3}}
+    Sim, você pode criar uma nova tupla contendo apenas os elementos desejados:
+
+<pre class="brush: python">
+tupla = (100, 200, 300, 400, 500)
+nova_tupla = (tupla[0], tupla[2], tupla[-2])
+</pre>
+Isso agrupa os elementos extraídos em uma nova tupla que pode ser usada conforme necessário.
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 4}}
+    7
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 4}}
+    8
    </p>
   </div>
  </div>
  <div class="question-answer">
   <div class="question">
    <p>
-    {{DUVIDA 5}}
+    9
    </p>
   </div>
   <div class="answer">
    <p>
-    {{DICA 5}}
+    10
    </p>
   </div>
  </div>
